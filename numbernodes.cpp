@@ -7,18 +7,18 @@
 #include <ctime>
 #include <cmath>
 
-#define initialconnections 10
+#define INITIAL_CONNECTIONS 10
 
 using namespace std;
 
-int numnodes = 10;
+int numnodes = INITIAL_CONNECTIONS;
 int totalenergy = 0;
 
 void recursivenodes(int connections, int distance);
 
 int main() {
   srand(time(NULL));
-  recursivenodes(initialconnections, 0);
+  recursivenodes(INITIAL_CONNECTIONS, 0);
   cout << "Number of nodes: " << numnodes << endl;
   cout << "Total energy: " << totalenergy << endl;
   return 0;
