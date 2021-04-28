@@ -2,10 +2,16 @@
 // Sensor Node Test
 // numbernodes.cpp
 
+// This file was the initial brainstorming file. The network had to
+// be created before any further tasks were implemented. After around
+// one hour, thoughts of a recursive implementation circled.
+// A few hours later, this file was completed and the network
+// was in place.
+
+// Details for the implementation are in main.cpp
+
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <cmath>
+#include <cmath> // pow()
 
 #define INITIAL_CONNECTIONS 10
 
